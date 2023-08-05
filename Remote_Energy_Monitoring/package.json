@@ -1,0 +1,34 @@
+{
+  "name": "energy_monitoring_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAN35140/Remote-Energy-Monitoring.git"
+  },
+  "author": "NamPhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAN35140/Remote-Energy-Monitoring/issues"
+  },
+  "homepage": "https://github.com/MAN35140/Remote-Energy-Monitoring#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

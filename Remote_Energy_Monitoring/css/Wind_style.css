@@ -1,0 +1,170 @@
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 15px 0;
+	background: #000;
+}
+
+header a {
+	color: #fff;
+}
+
+header .container {
+	display: flex;
+	padding: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .container .logo a {
+	font-size: 20px;
+}
+
+header .container .logo a i {
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+header .container nav ul {
+	display: flex;
+}
+
+header .container nav ul li {
+	margin-left: 20px;
+	color: #fff;
+}
+
+header .container nav ul li a {
+	font-size: 18px;
+	transition: all .3s;
+}
+
+header .container nav ul li a:hover {
+	color: #1ed760;
+}
+
+header .container nav ul li a i {
+	margin-right: 10px;
+}
+
+.introduce {
+	font-weight: 600;
+	display: flex;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.Wind {
+	position: relative;
+	padding: 20px 0;
+	background: url(../images/Wind_Background.jpg) center bottom;
+}
+
+.Wind::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: rgba(0, 0, 0, .2);
+}
+
+.Wind .container {
+	position: relative;
+	z-index: 1;
+}
+
+.Wind .container h2 {
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-align: center;
+	color: blue;
+}
+
+.Wind .container .Wind1,
+.Wind .container .Wind2,
+.Wind .container .Wind3,
+.Wind .container .Wind4,
+.Wind .container .Wind5 {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	padding: 64px 16px;
+	-webkit-animation: change 5s ease infinite;
+	animation: change 5s ease infinite;
+	text-align: center;
+}
+
+footer .socials-list a {
+	font-size: 30px;
+	margin-left: 10px;
+	color: #fff;
+}
+
+footer .socials-list a:hover {
+	color: rgba(255, 149, 0, .7);
+}
+
+footer p {
+	margin-top: 15px;
+	color: #fff;
+}
+
+footer p span {
+	color: #00fff7;
+}
+
+@-webkit-keyframes change {
+
+0% {
+	background-color: #9b59b6;
+}
+
+50% {
+	background-color: #3498db;
+}
+
+100% {
+	background-color: #16a085;
+}
+
+}
+
+@keyframes change {
+
+0% {
+	background-color: #9b59b6;
+}
+
+50% {
+	background-color: #3498db;
+}
+
+100% {
+	background-color: #16a085;
+}
+
+}
+
